@@ -1,0 +1,98 @@
+
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%) !important;
+  box-shadow: 0 2px 8px rgba(13, 71, 161, 0.1);
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.navbar-brand, .nav-link, .navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #ffd600 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.08);
+}
+
+.card-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #1976d2;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #42a5f5 100%);
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.form-control, .form-select {
+  border-radius: 0.5rem;
+}
+
+.list-group-item {
+  border-radius: 0.5rem;
+}
+
+a, .App-link {
+  color: #1976d2;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover, .App-link:hover {
+  color: #ffd600;
+}
